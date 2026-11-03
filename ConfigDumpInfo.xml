@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Configuration.Конфигурация" id="74438d21-d034-410e-b6fc-4e42f2fbe015" configVersion="659b5d5c24359f4c825a70673226fc2000000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ" id="e1bac788-139c-4bae-aabe-034680a452e2" configVersion="5305fd23608adc419d525b5719529ee600000000">
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров" id="27dddf4c-f84b-40fb-935a-58ae65b8218c"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Сумма" id="2d8f5dfa-fa87-4533-a474-ecb8e53b9de5"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Количество" id="5cad78be-9a06-4855-b5ee-003c859a80c3"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Цена" id="8574f7d3-b96e-4fa0-9be5-4ea8a8b5c440"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Номенклатура" id="ab49d21f-31f2-462d-b1be-dcb9cf382641"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма" id="52a39248-a481-4c76-90fc-0b9c7c8456bf" configVersion="7d8aa92683a2cf449787b4c12fd58d9200000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма.Form" id="52a39248-a481-4c76-90fc-0b9c7c8456bf.0" configVersion="9029219b97557e42b483a03487a7e43400000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма.Help" id="52a39248-a481-4c76-90fc-0b9c7c8456bf.1" configVersion="c99713e7c019ed469d4124604603036500000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Help" id="e1bac788-139c-4bae-aabe-034680a452e2.1" configVersion="aada39ebad9145469e0ea26aaeb83b9500000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.ManagerModule" id="e1bac788-139c-4bae-aabe-034680a452e2.2" configVersion="819251cce9578d49890df0817c8899e800000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.ObjectModule" id="e1bac788-139c-4bae-aabe-034680a452e2.0" configVersion="51a85d7958cb4945827598a8714f66a300000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать" id="d529a14a-ed7f-4cd6-84c4-a74d43d3e462" configVersion="1f3ee9f5e6c5dc4393ba0b0ed1f6f6ad00000000">
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров" id="32f03987-b7b8-4ddc-8dd5-346fd0cd9413"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров.Attribute.Количество" id="8a36b5bb-7a05-4dde-bd21-660cb76343e7"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров.Attribute.Номенклатура" id="9e05ec9a-041a-4dae-a4d1-ef39280690ef"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров.Attribute.Цена" id="a2e1bf9c-dc0b-49b0-ae63-726cbc4e520b"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров.Attribute.Сумма" id="eb5c0944-ba85-4c85-89c5-c9316b47f2df"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.Form.Форма" id="f25715c6-b5b9-4cd2-b8ef-cc88f2fb9e83" configVersion="17e67b10686b444f8daa6c8214af42ea00000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.Form.Форма.Form" id="f25715c6-b5b9-4cd2-b8ef-cc88f2fb9e83.0" configVersion="6934723259ab934e914a7396c05b4ccb00000000"/>
+		<Metadata name="Language.Русский" id="1528fd63-7861-422d-8ae0-ec2ce8c7dcde" configVersion="85f917702a80cc4b8ad32b03fc1841df00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
