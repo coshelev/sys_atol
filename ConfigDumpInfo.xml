@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Configuration.Конфигурация" id="74438d21-d034-410e-b6fc-4e42f2fbe015" configVersion="659b5d5c24359f4c825a70673226fc2000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="74438d21-d034-410e-b6fc-4e42f2fbe015" configVersion="1be3702732967c418a18276f34d2c46100000000"/>
 		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ" id="e1bac788-139c-4bae-aabe-034680a452e2" configVersion="5305fd23608adc419d525b5719529ee600000000">
 			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров" id="27dddf4c-f84b-40fb-935a-58ae65b8218c"/>
 			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Сумма" id="2d8f5dfa-fa87-4533-a474-ecb8e53b9de5"/>
@@ -9,12 +9,22 @@
 			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Цена" id="8574f7d3-b96e-4fa0-9be5-4ea8a8b5c440"/>
 			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.TabularSection.ТаблицаТоваров.Attribute.Номенклатура" id="ab49d21f-31f2-462d-b1be-dcb9cf382641"/>
 		</Metadata>
-		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма" id="52a39248-a481-4c76-90fc-0b9c7c8456bf" configVersion="7d8aa92683a2cf449787b4c12fd58d9200000000"/>
-		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма.Form" id="52a39248-a481-4c76-90fc-0b9c7c8456bf.0" configVersion="9029219b97557e42b483a03487a7e43400000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма" id="52a39248-a481-4c76-90fc-0b9c7c8456bf" configVersion="5278a102843e4f41970fc12fe556ff0700000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма.Form" id="52a39248-a481-4c76-90fc-0b9c7c8456bf.0" configVersion="73a8fe1a7a38ec418584756f3b38637300000000"/>
 		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Form.Форма.Help" id="52a39248-a481-4c76-90fc-0b9c7c8456bf.1" configVersion="c99713e7c019ed469d4124604603036500000000"/>
 		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.Help" id="e1bac788-139c-4bae-aabe-034680a452e2.1" configVersion="aada39ebad9145469e0ea26aaeb83b9500000000"/>
 		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.ManagerModule" id="e1bac788-139c-4bae-aabe-034680a452e2.2" configVersion="819251cce9578d49890df0817c8899e800000000"/>
 		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ.ObjectModule" id="e1bac788-139c-4bae-aabe-034680a452e2.0" configVersion="51a85d7958cb4945827598a8714f66a300000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld" id="e8e1f248-2467-439f-9923-45ac597560b8" configVersion="046acbfebdb04d41b14ba71464dd06de00000000">
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.TabularSection.ТаблицаТоваров.Attribute.Номенклатура" id="3a03b042-8a0d-4eea-890e-7332557897d7"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.TabularSection.ТаблицаТоваров" id="3d90715b-fb2d-48bb-bdf0-65603504c079"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.TabularSection.ТаблицаТоваров.Attribute.Сумма" id="5539324f-8a5c-4cba-9886-a9f1588b75b0"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.TabularSection.ТаблицаТоваров.Attribute.Количество" id="a00004c2-9731-4c36-946b-7c939e8b90a7"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.TabularSection.ТаблицаТоваров.Attribute.Цена" id="c199e258-f883-4981-8e51-9c49c9d30a69"/>
+			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.TabularSection.ТаблицаТоваров.Attribute.КодМаркировки" id="f7bd4218-d8e7-428f-ae77-0cb230199abf"/>
+		</Metadata>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.Form.Форма" id="2e8691f7-732a-4bb0-860f-a6ba3e4933fd" configVersion="490fdc8f10a5ad4db6e95482b0f57cb200000000"/>
+		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_cld.Form.Форма.Form" id="2e8691f7-732a-4bb0-860f-a6ba3e4933fd.0" configVersion="c4bd4ca980699d48a543e1de78262d9700000000"/>
 		<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать" id="d529a14a-ed7f-4cd6-84c4-a74d43d3e462" configVersion="1f3ee9f5e6c5dc4393ba0b0ed1f6f6ad00000000">
 			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров" id="32f03987-b7b8-4ddc-8dd5-346fd0cd9413"/>
 			<Metadata name="DataProcessor.РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать.TabularSection.ТаблицаТоваров.Attribute.Количество" id="8a36b5bb-7a05-4dde-bd21-660cb76343e7"/>

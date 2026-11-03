@@ -261,6 +261,7 @@
 			<Language>Русский</Language>
 			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать</DataProcessor>
 			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ</DataProcessor>
+			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ_cld</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

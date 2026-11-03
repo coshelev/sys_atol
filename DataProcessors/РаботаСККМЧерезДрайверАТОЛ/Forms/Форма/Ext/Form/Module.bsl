@@ -12,6 +12,17 @@
 	
 	ЭтаФорма.КомПорт = "COM4";
 	
+	
+	//ЭтаФорма.КомПорт = "COM4";
+	
+	// Подключение к ККТ по TCP/IP (Ethernet / Wi-Fi)
+	Если ПустаяСтрока(ЭтаФорма.АдресККТ) Тогда
+		ЭтаФорма.АдресККТ = "192.168.168.9";
+	КонецЕсли;
+	
+	Если Не ЗначениеЗаполнено(ЭтаФорма.ПортККТ) Тогда
+		ЭтаФорма.ПортККТ = 5555; // порт по умолчанию для ККТ АТОЛ
+	КонецЕсли;
 КонецПроцедуры
 
 &НаКлиенте
@@ -120,12 +131,27 @@
 &НаКлиенте
 Процедура ПрименитьНастройку(Команда)
 	
-	ФП.setSingleSetting(ФП.LIBFPTR_SETTING_MODEL, Строка(ФП.LIBFPTR_MODEL_ATOL_AUTO));
-    ФП.setSingleSetting(ФП.LIBFPTR_SETTING_PORT, Строка(ФП.LIBFPTR_PORT_COM));
-    ФП.setSingleSetting(ФП.LIBFPTR_SETTING_COM_FILE, СокрЛП(ЭтаФорма.КомПорт));
-    ФП.setSingleSetting(ФП.LIBFPTR_SETTING_BAUDRATE, Строка(ФП.LIBFPTR_PORT_BR_115200));
+	//ФП.setSingleSetting(ФП.LIBFPTR_SETTING_MODEL, Строка(ФП.LIBFPTR_MODEL_ATOL_AUTO));
+	//ФП.setSingleSetting(ФП.LIBFPTR_SETTING_PORT, Строка(ФП.LIBFPTR_PORT_COM));
+	//ФП.setSingleSetting(ФП.LIBFPTR_SETTING_COM_FILE, СокрЛП(ЭтаФорма.КомПорт));
+	//ФП.setSingleSetting(ФП.LIBFPTR_SETTING_BAUDRATE, Строка(ФП.LIBFPTR_PORT_BR_115200));
+	//ФП.applySingleSettings();
+	
+	// Связь с ККТ по TCP/IP: LIBFPTR_PORT_TCPIP + адрес и порт ККТ
+	ФП.setSingleSetting(ФП.LIBFPTR_SETTING_MODEL,    Строка(ФП.LIBFPTR_MODEL_ATOL_AUTO));
+    ФП.setSingleSetting(ФП.LIBFPTR_SETTING_PORT,    Строка(ФП.LIBFPTR_PORT_TCPIP));
+    ФП.setSingleSetting(ФП.LIBFPTR_SETTING_IPADDRESS, СокрЛП(ЭтаФорма.АдресККТ));
+    ФП.setSingleSetting(ФП.LIBFPTR_SETTING_IPPORT,  ЭтаФорма.ПортККТ);
     ФП.applySingleSettings();
-
+	
+	// Проверяем соединение
+	ФП.open();
+	Если ФП.isOpened() Тогда
+		Сообщить("Связь с ККТ установлена... ");
+	Иначе
+		Сообщить("Ошибка связи с ККТ: " + ФП.ErrorDescription());
+	КонецЕсли;
+	ФП.close();
 КонецПроцедуры
 
 &НаКлиенте
