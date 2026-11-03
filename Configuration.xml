@@ -262,6 +262,7 @@
 			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ_оригинал_не_редактировать</DataProcessor>
 			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ</DataProcessor>
 			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ_cld</DataProcessor>
+			<DataProcessor>РаботаСККМЧерезДрайверАТОЛ_glm</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
